@@ -1,0 +1,4175 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*sequence of css classes
+01 - Home Expanded Navigation
+02 - Home Alternate
+03 - About
+04 - Therapies
+05 - Classes
+06 - Contact
+07 - Shop Home Left Sidebar
+08 - Shop Home Left Sidebar Alternate
+09 - Shop Home Right Sidebar
+10 - Shop Home Right Sidebar Alternate
+11 - Shop Home No Sidebar
+12 - Shop Home No Sidebar Alternate
+13 - Shop Product Page
+14 - Shop Product Page Alternate
+end-sequence of css classes*/
+
+
+
+/*=============Style-Reset START=================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*===============Style-Reset END=================*/
+/*************************************************/
+
+/*==============Global Class Start================*/
+.container {
+    max-width: 1110px;
+}
+
+.ps-link-style-nullify:hover, .ps-link-style-nullify:active, .ps-link-style-nullify:focus {
+    text-decoration: none;
+    color: #b05797;
+}
+
+.ps-slider-margin-medium {
+    padding: 120px 0 130px 0;
+}
+
+.ps-slider-margin-small {
+    padding: 120px 0 42px 0;
+}
+.ps-slider-margin-big{
+    padding: 205px 0 245px 0;
+
+}
+
+/*product-page*/
+.ps-shop-right-sidebar {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #fbffed;
+}
+
+/*=============Global class end============*/
+/*******************************************/
+
+
+
+/*==============navbar style starts===============*/
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.header-top, .header-top a {
+    background: #4b2641;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #7d406c;
+    text-decoration: none;
+}
+.header-top .container{
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.nav-background {
+    background: #7d406c;
+    border: none;
+}
+
+.logo-top {
+    margin-top: 3px;
+    z-index: 2;
+    position: relative;
+    padding: 0 0 0 25px;
+
+}
+
+.main-nav-wrapper .nav{
+    left: 32px;
+    position: relative;
+}
+.main-nav-wrapper ul li {
+    padding: 10px 10px 1px 20px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 3px solid transparent;
+    transition: all 500ms;
+    line-height: 25px;
+    color: #d5cec2;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active {
+    color: #f39d89;
+    background: transparent !important;
+    border-bottom: 3px solid #fff;
+}
+
+.submenu .dropdown-menu {
+    min-width: 132px;
+    background: #69365b;
+}
+
+.submenu .dropdown-menu li a {
+    background: transparent;
+
+}
+
+.submenu ul > li > a:hover,
+.submenu ul > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.submenu ul li a {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    color: #f39d89;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.dropdown-large ul li {
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.dropdown-large {
+    position: static !important;
+}
+
+.dropdown-menu-large {
+    background: #69365b;
+    left: -28%;
+    right: 2%;
+    padding-top: 43px;
+    padding-bottom: 17px;
+}
+
+.dropdown-menu-large > li > ul > li {
+    padding: 3px;
+    margin: 0;
+    list-style: none;
+}
+
+.dropdown-title {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    color: #f39d89;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.dropdown-menu-large > li > ul > li > a {
+    display: block;
+    padding: 3px 3px 3px 0;
+    clear: both;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.428571429;
+    color: #f39d89;
+    white-space: normal;
+    text-transform: uppercase;
+}
+
+.drop-image-title > a {
+    color: #f39d89;
+    text-decoration: none;
+}
+
+.drop-image-title {
+    background: #3e2036;
+    margin-bottom: 30px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #f39d89;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.dropdown-menu-large > li ul > li > a:hover,
+.dropdown-menu-large > li ul > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.dropdown-image {
+
+}
+
+.drop-image-title a:hover {
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .dropdown-menu-large {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .dropdown-menu-large > li {
+        margin-bottom: 30px;
+    }
+
+    .dropdown-menu-large > li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+/*Override Bootstrap Default Style*/
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #f39d89;
+    background: transparent !important;
+    border-bottom: 3px solid #fff;
+}
+
+/*=========================navbar ends===============================*/
+
+/*=========================Slider Starts=======================*/
+
+/*For all Slider Starts*/
+
+ /*.ps-creative-title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 45px;
+    padding-top: 12px;
+} */
+
+.border-bottom-none, .border-bottom-none:hover {
+    border-bottom: none !important;
+}
+
+.ps-hr {
+    display: inline-block;
+    height: 2px;
+    width: 100px;
+    margin: 14px;
+    background: #fff;
+}
+
+.ps-slider-wrap {
+
+}
+
+.carousel-inner {
+    display: block;
+    z-index: 2;
+}
+
+.ps-slider-header {
+    color: #fff;
+}
+
+.ps-slider-title {
+    font-size: 120px;
+    font-family: 'Arima Madurai', cursive;
+}
+
+/*indicator*/
+
+.carousel-indicators li.active {
+    background: white;
+    color: white;
+    border: 8px solid white;
+}
+
+.carousel-indicators li {
+    background-color: #fff;
+}
+
+.ps-indicator-position {
+    bottom: -80px;
+
+}
+.ps-indicator-position-big{
+    bottom: -205px;
+}
+.ps-indicator-position li.active {
+    height: 4px;
+    width: 4px;
+
+}
+
+.ps-indicator-position li {
+    height: 4px;
+    width: 4px;
+    border: 5px solid white;
+}
+
+/*==================For all sliders end=================/
+
+/* Slider image set for Home-Expanded */
+.ps-home-slider{
+    position: relative;
+    background: url("../img/slider.jpg") no-repeat;
+    background-size: cover;
+}
+
+/* Slidder image for Home-Alternate */
+.ps-home-alter-slider{
+    position: relative;
+    background: url("../img/home-alternate.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-home-alter-slider:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203,206,200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203,206,200,1) 0%, rgba(221,221,215,1) 0%, rgba(186,192,196,1) 0%, rgba(97,90,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203,206,200,1) 0%,rgba(221,221,215,1) 0%,rgba(186,192,196,1) 0%,rgba(97,90,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203,206,200,1) 0%,rgba(221,221,215,1) 0%,rgba(186,192,196,1) 0%,rgba(97,90,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcec8', endColorstr='#615a57',GradientType=0 ); /* IE6-9 */
+}
+
+#ps-spa-alter-slider{
+
+}
+
+.ps-home-slider:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203,206,200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203,206,200,1) 0%, rgba(221,221,215,1) 0%, rgba(186,192,196,1) 0%, rgba(97,90,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203,206,200,1) 0%,rgba(221,221,215,1) 0%,rgba(186,192,196,1) 0%,rgba(97,90,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203,206,200,1) 0%,rgba(221,221,215,1) 0%,rgba(186,192,196,1) 0%,rgba(97,90,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcec8', endColorstr='#615a57',GradientType=0 ); /* IE6-9 */
+}
+
+#ps-spa-slider{
+
+}
+
+.ps-lsidebar-slider {
+    position: relative;
+    background: url("../img/slider-background-7.png") no-repeat;
+    background-size: cover;
+
+}
+
+/*07 - Shop Home Left Sidebar Ends*/
+
+/*08 - Shop Home Left Sidebar Alternate Starts*/
+.ps-lsidebar-alter-slider {
+    position: relative;
+    background: url("../img/slider.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-lsidebar-alter-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+/*08 - Shop Home Left Sidebar Alternate Ends*/
+
+/*09 - Shop Home Right Sidebar Starts*/
+.ps-rsidebar-slider {
+    position: relative;
+    background: url("../img/shop-home-right.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-rsidebar-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+/*09 - Shop Home Right Sidebar Ends*/
+
+/*10 - Shop Home Right Sidebar Alternate starts*/
+
+.ps-rsidebar-alter-slider {
+    position: relative;
+    background: url("../img/shop-home-right-alter.png") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-rsidebar-alter-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+/*10 - Shop Home Right Sidebar Alternate Ends*/
+
+/*11 - Shop Home No Sidebar Starts*/
+.ps-no-sidebar-slider {
+    position: relative;
+    background: url("../img/shop-home-no-sidebar.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-no-sidebar-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+/*11 - Shop Home No Sidebar Ends*/
+
+/*12 - Shop Home No Sidebar Alternate Starts*/
+.ps-nosidebar-alter-slider {
+    position: relative;
+    background: url("../img/shop-home-nosidebar-alter.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-nosidebar-alter-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+.ps-slider-no-sidebar-alt {
+    padding: 120px 0 42px 0;
+}
+
+/*12 - Shop Home No Sidebar Alternate Ends*/
+
+/*13 - Shop Product Page*/
+.ps-product-slider {
+    position: relative;
+    background: url("../img/shop-product-page.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-product-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+/*13 - Shop Product Page*/
+
+/*14-shop-product-page-slider-starts*/
+.ps-product-alter-slider {
+    position: relative;
+    background: url("../img/shop-home-nosidebar-alter.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.ps-product-alter-slider:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcec8+0,ddddd7+0,bac0c4+0,615a57+100 */
+    background: rgb(203, 206, 200); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(203, 206, 200, 1) 0%, rgba(221, 221, 215, 1) 0%, rgba(186, 192, 196, 1) 0%, rgba(97, 90, 87, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcec8', endColorstr='#615a57', GradientType=0); /* IE6-9 */
+}
+
+/*14-shop-product-page-slider-ends*/
+
+/*=================Slider Ends===================*/
+
+/*----slider start----*/
+
+/*Global Class*/
+
+/*.ps-creative-title{
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    line-height: 100px;
+}
+
+.border-bottom-none,.border-bottom-none:hover{
+    border-bottom: none !important;
+}
+
+.ps-hr{
+    display: inline-block;
+    height: 2px;
+    width: 100px;
+    margin:14px;
+    background: #fff;
+}
+
+
+.carousel-inner{
+    display: block;
+    z-index: 2;
+}
+
+
+.ps-slider-header{
+    color: #fff;
+}
+
+.ps-slider-title{
+    font-size: 120px;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.ps-hr-margin{
+    margin-top: -10px;
+}*/
+
+/*indicator*/
+/*
+.carousel-indicators li.active{
+    background: white;
+    color: white;
+    border:8px solid white;
+}
+
+.carousel-indicators li{
+    background-color: #fff;
+}
+
+.ps-indicator-position{
+    bottom: -80px;
+
+} */
+/*//end-Global*/
+
+
+/*header-image(small)*/
+
+/*#spa-small-slider{
+    padding: 50px 0px;
+}*/
+
+
+/*<!--01 - Home Expanded Navigation-->*/
+
+/*Slider*/
+
+/*----slider ends----*/
+
+
+
+
+/*------Welcome------*/
+
+/*-----global class-----*/
+.ps-global-heading{
+    font-family: 'Arima Madurai', cursive;
+    font-size:40px;
+    font-weight: 300;
+    color:#7d406c;
+
+}
+
+.ps-global-text{
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #293d31;
+    line-height: 1.5;
+}
+
+
+.ps-welcome{
+    background: url("../img/welcome-bg.jpg") no-repeat;
+    background-origin: border-box;
+    background-position: 70% 50%;
+    padding: 30px 0;
+}
+
+.ps-welcome a{
+    text-decoration: none;
+    color: #8e597e;
+}
+
+.ps-welcome h1 {
+    padding-top: 60px;
+    padding-bottom: 16px;
+}
+
+.ps-welcome p {
+    line-height: 1.5;
+}
+
+.ps-welcome-card{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 16px 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    -webkit-box-shadow: 0px 0px 32px 4px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 32px 4px rgba(224,224,224,1);
+    box-shadow: 0px 0px 32px 4px rgba(224,224,224,1);
+}
+
+.ps-welcome-card p{
+    line-height: 3;
+}
+
+.ps-welcome-time p{
+    color: #8e597e;
+}
+/*welcome section end */
+
+/*--price start*/
+
+.main-wrapper{
+    padding-top: 50px;
+}
+
+.ps-deals{
+    background: url(../img/deals_background_home1.png)  no-repeat center center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.ps-deals5{
+    background: url(../img/Promotions5.png)  no-repeat center center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.ps-deals3{
+    background: url(../img/deals_background.png)  no-repeat center center;
+    background-size: cover;
+
+}
+.ps-deals4{
+    background: #58274b;
+}
+
+/*adding image for alternating homepage*/
+.ps-home2{
+    background: url('../img/essential-oil.png')  no-repeat center center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.ps-deals-heading{
+    font-size: 45px;
+    font-family: 'Satisfy';
+    color: #7d406c;
+    text-align: center;
+    padding-bottom: 82px;
+}
+
+.ps-deals-heading3{
+    color: #ebf1d7;
+}
+
+.ps-deals-heading-home2{
+    color:#ebf1d7;
+}
+
+
+
+
+/*Events & Classes start*/
+
+.ps-events {
+    background-image: url("../img/events.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ps-events5{
+    background-image: url("../img/perfume-events5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ps-events-top h3 {
+    padding: 70px 0 52px 88px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    color: rgb(108, 134, 100);
+    line-height: 3;
+}
+
+.ps-events-top h1 {
+    width: 100%;
+    color: rgb(41, 61, 49);
+    padding-right: 30%;
+    line-height: 1.3;
+    padding: 0 100px 0 31px
+}
+
+.ps-events-top p {
+    color: rgb(41, 61, 49);
+    line-height: 1.5;
+    padding: 20px 10% 113px 31px;
+
+}
+
+
+.ps-events-bottom h2 {
+    font-family: 'Arima Madurai', cursive;
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+
+
+.ps-events-bottom{
+    padding: 0 0 40px 31px;
+}
+
+.ps-events-bottom button{
+    font-family: 'Arima Madurai', cursive;
+    background: #10502a;
+    color: #fcfff1;
+    padding: 13px 23px;
+    font-size: 20px;
+}
+
+.ps-events-bottom button:hover {
+    background-color: #293d31;
+    color: #fcfff1;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.ps-events-bottom h2{
+    margin:0;
+    font-size: 50px;
+    padding-bottom:40px;
+    position: relative;
+
+}
+
+.ps-events-bottom-price{
+    width: 70%;
+    float:left;
+}
+
+.ps-events-bottom-button{
+    width: 28%;
+    float:right;
+}
+
+/*------price tag------*/
+.ps-events-bottom h2 span:nth-child(1) {
+    font-size: 28px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -7px;
+}
+
+.ps-events-bottom h2 span:nth-child(2) {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left:10px;
+}
+
+
+.ps-events-bottom h2 span:nth-child(3) {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left:36px;
+}
+.ps-events-bottom h2 span:nth-child(4) {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left:62px;
+}
+.ps-events-bottom h2 span:nth-child(5) {
+    font-size: 28px;
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 111px;
+    font-weight: 500;
+}/*------price tag ends------*/
+/*Events & Classes end*/
+
+
+/*---service starts---*/
+.ps-services-wrap{
+    background-color: #fad7ca;
+    background-image: url(../img/main-background.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ps-services-header h3{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 28px;
+    color: #a67288;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ps-services-title{
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 50px;
+    color: #d8674d;
+}
+
+/* Start services first section*/
+.ps-content{
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+.ps-yoga-header{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.yoga-icon{
+    height: 85px;
+    width: 110px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.ps-yoga-title{
+    color: #7d406c;
+    font-family: 'Arima Madurai', "ExtraBold";
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.ps-yoga-description{
+    color: #7d406c;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 92px;
+
+}
+.ps-yoga-footer {
+    background-color: #f39d89;
+    height: 30px;
+}
+
+/* our services 2nd page design */
+.ps-services-wrap2{
+    background-color: #f7c8ad;
+}
+/*----service ends----*/
+
+
+
+
+/*-------Our reviews start-------*/
+
+/*Global Class*/
+
+.carousel-inner{
+    display: block;
+    z-index: 2;
+}
+.ps-review-slider{
+    position: relative;
+    background-image:url("../img/Testimonials1.png");
+    background-size: cover;
+}
+
+
+.ps-review-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #f39d89;
+    padding-top: 35px;
+}
+/* adding color for home-alternative */
+.ps-review-slider-home2{
+
+    background-image: url('../img/Testimonials.png')!important;
+}
+.ps-review-home2{
+    color: #fbfbfb;
+}
+.ps-review-sub-home2{
+    color: #fcfff1;
+}
+
+.ps-review-sub-title{
+    padding-top: 30px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 60px;
+    color: #fcfff1;
+}
+
+.ps-review-content-title{
+    padding-top: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    color: #552247;
+}
+
+.ps-review-color{
+    color:#eed0c4;
+}
+.ps-review-color p{
+    color:#eed0c4;
+}
+.ps-review-content{
+    line-height: 1.5;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #552247;
+
+}
+
+.ps-review-company{
+    padding-top: 35px;
+    padding-bottom: 83px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #552247;
+}
+.ps-review-img{
+    padding-top: 71px;
+}
+.ps-review-img-edit{
+    border: 3px solid #f28d84;
+    border-radius: 50%;
+}
+.ps-review-detail{
+    margin-left: 18%;
+    margin-right: 18%;
+    color: #f6c4be;
+    font-style: italic;
+
+}
+
+
+/*indicator*/
+
+.ps-review-indicator li.active{
+    background: white;
+    color: white;
+    border:8px solid white;
+}
+
+.ps-review-indicator li{
+    background-color: #fff;
+}
+
+.ps-review-indicator{
+    bottom: 30px
+}
+.ps-review-indicator li{
+    height: 8px;
+    width: 8px;
+}
+.ps-review-indicator li.active{
+    border: 6px solid white;
+}
+
+
+
+/*-------Our reviews end--------*/
+
+
+
+/*Reservation starts*/
+/*global class for reservation*/
+
+.ps-assistant-bold-font{
+    font-family: 'Assistant', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #f28d84;
+}
+
+
+.ps-reservation-header{
+    padding:66px 0 59px 0;
+}
+
+.ps-reservation-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.ps-reservation-subtitle{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 60px;
+    color: #663366;
+}
+
+
+/*reservation type1*/
+/*for title and form font color*/
+.ps-reserve-color{
+    color:#ff9999;
+}
+.ps-reserve-color-4{
+    color:#7d406c;
+}
+
+/*for form alignment*/
+.ps-reservation-form{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+/*for form placeholder style*/
+.ps-reservation-type-1 input::-webkit-input-placeholder {
+    color: #ff9999 !important;
+
+}
+
+
+.ps-reservation-type-1 input::-moz-placeholder {
+    color: #ff9999 !important;
+
+}
+
+.ps-reservation-type-1 input:-ms-input-placeholder  {
+    color: #ff9999 !important;
+
+}
+
+.ps-reservation-type-1 input:-moz-placeholder {
+    color: #ff9999 !important;
+
+}
+
+
+
+.ps-reservation-type-1 textarea::-webkit-input-placeholder {
+    color: #ff9999 !important;
+
+}
+
+
+.ps-reservation-type-1 textarea::-moz-placeholder {
+    color: #ff9999 !important;
+
+}
+
+.ps-reservation-type-1 textarea:-ms-input-placeholder  {
+    color: #ff9999 !important;
+
+}
+
+.ps-reservation-type-1 textarea:-moz-placeholder {
+    color: #ff9999 !important;
+
+}
+
+
+/*for button*/
+.ps-reservation-type-1 .btn{
+    background:#ff9999;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ebf1d7;
+}
+
+.ps-reservation-type-1 .btn:hover, .ps-reservation-type-1 .btn:focus {
+
+    background: #7d406c;
+
+}
+/*contact*/
+.ps-contact-info{
+    color:#333333;
+}
+
+.ps-contact-info p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.ps-contact-info h4{
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+.ps-contact-details{
+    padding-top: 40px;
+}
+
+.ps-contact-details-heading{
+    font-size: 18px;
+    font-family: "Assistant";
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.ps-contact-details-content{
+    font-size: 18px;
+    font-family: "Assistant";
+    font-weight: 400;
+}
+
+.ps-contact-details li{
+    padding-bottom:15px;
+}
+/*page*/
+.ps-reservation-type5{
+    background: url("../img/main-background4.png") no-repeat;
+    background-size: cover;
+}
+.ps-reservation-type-1 .p1 {
+    background: url("../img/booking-section-background-p1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.ps-reservation-type6 .p1 {
+    background: url("../img/reservation6.png") no-repeat;
+    background-size: cover;
+}
+
+/*for background-image of home2 reservation*/
+.ps-reservaton-home2 .p1{
+    background: url(../img/booking-section-background-p2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.ps-reservation-type-1 .p1 .container{
+
+    background-color: #f7dbcb;
+    padding-bottom: 62px;
+
+}
+
+
+
+/*reservation ends*/
+
+/*--blog start--*/
+
+/*starting  "ps-blog" part :*/
+
+.ps-blog{
+    background: url("../img/BlogSectionBackground.png") no-repeat;
+    background-size: cover;
+}
+
+.ps-blog .ps-blog-h2{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-transform: capitalize;
+    color: #293d31;
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+
+.ps-blog .ps-latest-news-h1{
+    font-size:60px;
+    font-family: 'Arima Madurai', cursive;
+    text-transform:capitalize;
+    color:#293d31;
+    padding-bottom:60px;
+    font-weight: 100;
+}
+
+
+.ps-paragraph-part1,.ps-paragraph-part2{
+    padding: 15px 30px 28px 15px;
+}
+
+.ps-paragraph-heading{
+    font-size: 20px;
+    font-family: "Assistant";
+    font-weight: 500;
+    line-height: 2.143;
+    text-transform:capitalize;
+}
+.ps-paragraph-content{
+    font-size: 13px;
+    font-family: "Assistant";
+    font-weight:100;
+    line-height: 2.143;
+    padding-bottom:18px;
+}
+
+.ps-bg-color ul li{
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0px;
+    color: #5d6d5d;
+}
+.ps-author-date{
+    margin-top:15px;
+}
+
+.ps-image-part1,.ps-image-part2{
+    padding-left: 0px;
+    margin-top: -1px;
+}
+
+.ps-paragraph-part1 h3, .ps-paragraph-part2 h3{
+
+    font-size: 20px;
+    color: rgb(41, 61, 49);
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Assistant', sans-serif;
+    text-transform:capitalize;
+
+}
+
+.ps-paragraph-part1 p, .ps-paragraph-part2 p{
+
+    color: rgb(41, 61, 49);
+    line-height: 2.143;
+    font-family: 'Assistant', sans-serif;
+}
+
+ .ps-social-color .fa{
+    color:#293d31;
+}
+
+.ps-social-color a{
+    text-decoration: none;
+    color:#909d8a;
+}
+.ps-social-color a:hover,.ps-social-color a:focus{
+    text-decoration: none;
+    color:#7d406c;
+}
+
+
+.ps-radius{
+    border-radius: 0px 5px 5px 0px;
+}
+
+/*span of "p.ps-author-date"
+*/
+
+.ps-img-round{
+    margin-right:6px;
+}
+.ps-author{
+    margin-right:23px;
+}
+/*ending span of "p.ps-author-date"
+*/
+
+
+/*absoluting image and link*/
+.ps-relative{
+    position: relative;
+}
+.ps-absolute a{
+    position: absolute;
+    right:8%;
+    bottom:10px;
+}
+/*end of absoluting image and link*/
+
+/*link a style*/
+.ps-read-more-a{
+    background:#7d406c;
+    color:#d9c9d5;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:6px;
+    padding-bottom:6px;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+
+.ps-read-more-a:hover{
+    background:#602060;
+    color:#c0a4b8;
+    text-decoration: none !important
+
+}
+
+/*end of "ps-blog" part  */
+
+
+/* start subscribe to our newsletter*/
+.ps-subscribe-wrap{
+    padding-top:65px;
+    padding-bottom:75px;
+}
+.ps-subscribe{
+    background-image: url("../img/Section Bounds.jpg");
+
+}
+.ps-sub-header{
+
+    font-family: 'Satisfy', cursive;
+    color:#7d406c;
+    margin-left: 15px;
+    padding-top: 22px;
+    font-size: 30px;
+}
+
+
+#ps-exampleInputEmail3{
+    width:235px;
+    height:40px;
+    font-family: 'Assistant', bold;
+}
+
+.ps-button{
+    background-color:#7d406c;
+    margin-left: -5px;
+    border-radius:0px;
+    color:#d5cec2;
+    font-weight:bold;
+    width:160px;
+    height:40px;
+    font-family: 'Assistant', bold;
+}
+
+.ps-button:hover{
+    background-color:#4d194d;
+    color:#cec2ba;
+}
+.ps-form{
+    margin-top:15px;
+    color:#293d31;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #f5b7a5 !important;
+    font-weight: bold;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #f5b7a5 !important;
+    font-weight: bold;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #f5b7a5 !important;
+    font-weight: bold;
+}
+
+input:-ms-input-placeholder {
+    color: #f5b7a5 !important;
+    font-weight: bold;
+}
+
+
+.ps-bg-color{
+    background-color: #ebf1d7;
+    border-radius:5px 0px 0px 5px;
+    padding: 15px 35px 29px 15px;
+}
+.ps-padding{
+    padding-bottom: 90px;
+}
+
+/* view more */
+.ps-view-more{
+    padding: 22px;
+    background-color: #bdcbb9;
+}
+
+/*end of subscribe to our newsletter*/
+
+/*view more ->> part 1*/
+
+.view-more1{
+    background: #293d31;
+}
+
+.view-more1 p{
+
+    color:#aab5a0;
+    text-transform: capitalize;
+    font-size:20px;
+    font-family: "Assistant";
+    /*  line-height: 4.5;*/
+    font-weight:200;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+.ps-view a:hover, .ps-view a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*end of view more ->> part 1*/
+
+/*--blog ends--*/
+
+/*--team starts--*/
+.ps-team-connect-title{
+    font-family: 'Satisfy', cursive,sans-serif;
+
+    font-size: 30px;
+    color: #f9ffe1;
+    padding-top: 37px;
+}
+.ps-team-connect-section-title{
+    font-family: 'Arima Madurai', cursive,sans-serif;
+    font-size: 60px;
+    color: #f7dbcb;
+    padding-top: 35px;
+    padding-bottom: 84px;
+}
+.ps-team-connect-social-icon{
+
+    padding-bottom: 60px;
+
+}
+.ps-connectus-section .list-inline li a i:hover{
+    color:#5DBA9D;
+}
+
+.ps-team-social-icon  li a .fa:hover, .ps-team-social-icon li a .fa:focus {
+
+    color: #5DBA9D;
+}
+
+
+/**team**/
+.ps-team-section{
+    background: url("../img/perfume.png") no-repeat;
+    background-size: cover;
+}
+.ps-team-section6{
+    background: url("../img/flower6.png") no-repeat;
+    background-size: cover;
+}
+
+
+.ps-team-section4{
+    background: url("../img/rose.jpg") no-repeat;
+    background-size: cover;
+}
+.ps-team-section3{
+    background: url("../img/infused-water.png") no-repeat;
+    background-size: cover;
+}
+.ps-team-section5{
+    background: url("../img/wellness5.png") no-repeat;
+    background-size: cover;
+}
+
+
+.ps-team-section ul .ps-team-connect-social-icon{
+    font-size: 16px;
+    color: #ffffff;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.ps-member-wrap{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ps-member-image{
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    height: 197px;
+
+}
+.ps-member-name{
+    font-family: 'Arima Madurai', cursive,sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 17px;
+    padding-top: 45px;
+
+}
+.ps-member-name a{
+    color: #ffffff;
+}
+.ps-member-description{
+    color: #ffffff;
+    font-family: 'Assistant', sans-serif;
+    padding-bottom: 38px;
+    line-height: 1.5;
+
+}
+.ps-member-border{
+    border-right:4px solid #bf6a53;
+    height: 275px;
+}
+
+.ps-member-border6{
+    border-right:4px solid #664d43;
+}
+
+.ps-member-border5{
+    border-right:4px solid #6b2d2d;
+    height: 275px;
+}
+
+.ps-member-border4{
+    border-right:4px solid #753d47;
+    height: 275px;
+}
+
+.ps-team-section4-title{
+    color:#fff !important;
+}
+
+.ps-team-connect-section4-heading{
+    color:#fff  !important;
+}
+/*--team ends--*/
+
+
+/*----Free Consultation----*/
+.ps-consultation {
+    background: url("../img/consultation-bg1.png") no-repeat;
+    padding: 60px 0 45px 0;
+}
+.ps-consultation5{
+    background: url("../img/infused5.png") no-repeat;
+    padding: 60px 0 45px 0;
+}
+.ps-consultation h2{
+    margin: 0;
+}
+.ps-consultation h1{
+    padding: 32px 0 62px 0;
+    margin: 0;
+}
+
+.ps-consultation form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #293d31 !important;
+}
+
+.ps-consultation form textarea::-webkit-input-placeholder{
+    color: #293d31 !important;
+}
+
+.ps-consultation form input[placeholder], textarea[placeholder]{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+}
+
+.ps-consultation form .form-control {
+    border:none;
+    border-radius:0px;
+}
+
+.ps-consultation form .btn {
+
+    background-color: #293d31;
+    font-family: 'Assistant', sans-serif;
+    font-size: 12px;
+    color:#fff;
+    width:140px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.ps-consultation form .btn:hover, .ps-consultation form .btn:focus {
+    text-decoration: none;
+    background: #7d406c;
+}
+
+
+.ps-sub-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #4c6857;
+}
+
+.ps-heading {
+    font-weight: 200;
+    color: #293d31;
+    font-size:60px;
+}
+
+.ps-consultation .input-group-addon{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 0 2px #fff;
+}
+
+#name,#email,#date{
+    color:#293d31;
+}
+/*Free consultation end*/
+
+/*Our Philosophy start*/
+
+.ps-philosophy {
+    background-color: #f9ffe1;
+    padding-top: 50px;
+    padding-bottom: 82px;
+}
+
+.ps-philosophy-padding{
+    padding-left: 14px;
+    padding-top:50px;
+    padding-right: 95px;
+}
+
+.ps-philosophy h1 {
+    padding-bottom: 40px;
+}
+
+
+
+/*philosophy*/
+
+/*Start Our Services part*/
+
+.ps-services-wrap{
+    background-color: #fad7ca;
+    background-image: url(../img/main-background.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ps-services-header{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 14px;
+    color: #a67288;
+    padding-top: 30px;
+}
+.ps-services-title{
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 50px;
+    color: #d8674d;
+}
+
+.ps-services-wrap4{
+    background-image: url("../img/main-background4.png");
+}
+
+.ps-services-wrap3{
+    background-image: url("../img/main-background3.png");
+}
+.ps-services-header2 h3{
+    padding-top: 37px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #293d31;
+}
+
+.ps-services-header3 h3{
+    padding-top: 66px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #293d31;
+}
+
+.ps-services-title2{
+    color: #e78770;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+
+.ps-services-title3{
+    color: #293d31;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 60px;
+    padding-top: 42px;
+    padding-bottom: 78px;
+}
+
+
+.ps-image-footerdesign2{
+    opacity: 0.722;
+    background-color: #ffffff;
+    margin-left: 7px;
+    bottom: 7px;
+    border-radius: 0px 0px 5px 5px;
+    width: 96%;
+    position: absolute;
+}
+
+.ps-image-textdesign{
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    color: #493638;
+    padding-bottom: 22px;
+
+}
+.ps-service-img{
+    position:relative;
+}
+.ps-service-padding{
+    margin-bottom: 60px;
+}
+.ps-service-padding2{
+    padding-bottom: 30px;
+}
+
+/*End Our Services*/
+
+/*Connect with us part*/
+
+.ps-connectus-section{
+    background-color:#f7dbcb ;
+}
+
+.ps-team-connectus-title{
+    font-family: 'Satisfy', cursive,sans-serif;
+    font-size: 30px;
+    color: #f39d89;
+    padding-top: 37px;
+}
+.ps-team-connectus-section-title{
+    font-family: 'Arima Madurai', cursive,sans-serif;
+    font-size: 60px;
+    color: #7d406c;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.ps-team-section-title5{
+    color:#f7dbcb;
+}
+
+.ps-team-connect-section-title5{
+color:#f9ffe1;
+}
+.ps-team-connect-social-icon{
+    font-size: 60px;
+    color: #f39d89;
+    padding-bottom: 60px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+/*End of connect with us*/
+
+/* Start package-section*/
+.ps-package
+{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1110px;
+}
+
+/*for heading and sub-heading of package-section*/
+.ps-package-title1 h4
+{
+    font-family: 'Satisfy', regular;
+    font-size: 30px;
+    color: #293d31;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+.ps-package-title2 h1
+{
+    font-family: 'Arima Madurai', medium;
+    font-size: 60px;
+    color : #293d31;
+    padding-bottom: 40px;
+}
+
+/*for content of the package-section*/
+.ps-package-content-wrap
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.ps-package-item1
+{
+    background-image: url("../img/item1.png");
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 2px;
+}
+
+.ps-package-item2
+{
+    background-image: url("../img/item2.png");
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 2px;
+}
+
+.ps-package-item3
+{
+    background-image: url("../img/item3.png");
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 2px;
+}
+
+.ps-package-item4
+{
+    background-image: url("../img/item4.png");
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 2px;
+}
+
+/* for the seperator line of package-section*/
+.ps-seperator
+{
+    padding-top: 145px;
+}
+
+.ps-hr-seperator
+{
+    border-color: #000;
+}
+
+/*for the price tag of package-section */
+.ps-price-layer{
+    background-color: #fbfbfb;
+    opacity: 0.451;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    margin-top: -21px;
+}
+
+
+.ps-price-position{
+    float: right;
+    width: 50%;
+}
+
+.ps-price
+{
+    color: #060c08;
+    font-family: 'Arima Madurai', medium;
+    font-size: 40px;
+    padding-top: 16px;
+    position: absolute;
+    right: 3%;
+}
+
+.ps-decimal{
+    font-family: 'Arima Madurai', medium;
+    font-size: 24px;
+    font-weight: 500;
+    color: #060c08;
+}
+
+
+/* hover effect of price tag in package-section*/
+
+#ps-mouse-over1:hover,#ps-mouse-over2:hover,#ps-mouse-over3:hover,#ps-mouse-over4:hover
+{
+    color: #060c08;
+    opacity: 1.0;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* paragraph contents of package-section */
+.ps-para
+{
+    background-color: #fbfbfb;
+    margin-top: -20px;
+}
+
+.ps-para-header
+{
+    padding: 20px 0px 5px 20px;
+    font-size: 50px;
+    font-family: 'Arima Madurai', medium;
+    color: #293d31;
+    line-height: .8;
+}
+
+.ps-para-writing {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+    color: #293d31;
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+
+.ps-content-row2
+{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+/* END package-section*/
+
+/*Start Get the best deals section 2*/
+.ps-deals-main{
+    padding: 0px;
+    margin: 0px;
+}
+.ps-deals-second{
+    background: url('../img/perfume-bestDeals2.png') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+
+.ps-deals-secondbody{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 75px;
+}
+
+.ps-deals-boxtop{
+    background-color:#feb492;
+    height: 25px;
+}
+.ps-deals-boxmiddle{
+    background-color: #f39d89;
+}
+
+div.ps-deals-box1:hover{
+    -webkit-box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    -moz-box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    position: relative;
+    z-index: 99;
+}
+.ps-deals-boxhead {
+    color: #ffffff;
+    font-family: Satisfy;
+    font-size: 38px;
+    padding-top: 89px;
+    text-align: center;
+}
+.ps-deals-boxprice{
+    color: #fed9c8;
+    font-family: Arima Madurai;
+    font-size: 48px;
+    padding-top: 28px;
+    text-align: center;
+    padding-bottom: 59px;
+}
+.ps-deals-boxtext{
+    font-size: 20px;
+    font-family: Assistant;
+    background-color: #f9ffe1;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 56px;
+    color: #bfa6aa;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.ps-deals-boxbottom{
+    background-color:#f9ffe1;
+    padding-bottom: 40px;
+}
+.ps-deals-boxbutton {
+    background-color: #f39d89;
+    border: 1px solid #f39d89;
+    color: #f9f8db;
+    font-family: Arima Madurai;
+    font-size: 29px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.ps-deals-boxtop2{
+    background-color:#c9d9c4;
+    height: 25px;
+}
+.ps-deals-boxprice2{
+    color: #e4ece2;
+    font-family: Arima Madurai;
+    font-size: 48px;
+    padding-top: 28px;
+    text-align: center;
+    padding-bottom: 59px;
+}
+.ps-deals-boxmiddle2{
+    background-color: #97a294;
+}
+.ps-deals-boxbottom2{
+    background-color:#f9ffe1;
+    padding-bottom: 40px;
+}
+div.ps-deals-box2:hover{
+    -webkit-box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    -moz-box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    position: relative;
+    z-index: 99;
+}
+
+.ps-deals-boxbutton2{
+    background-color: #97a294;
+    border: 1px solid #97a294;
+    color: #f9f8db;
+    font-family: Arima Madurai;
+    font-size: 29px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.ps-deals-boxtop3{
+    background-color:#7b205b;
+    height: 25px;
+}
+.ps-deals-boxprice3{
+    color: #bd70aa;
+    font-family: Arima Madurai;
+    font-size: 48px;
+    padding-top: 28px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.ps-deals-boxmiddle3{
+    background-color: #7c3f6b;
+}
+.ps-deals-boxbottom3{
+    background-color:#f9ffe1;
+    padding-bottom: 40px;
+}
+div.ps-deals-box3:hover{
+    -webkit-box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    -moz-box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    box-shadow: 0px -4px 70px 0px rgba(220,225,199,0.74);
+    position: relative;
+    z-index: 99;
+}
+
+.ps-deals-boxbutton3{
+    background-color: #7d406c;
+    border: 1px solid #7d406c;
+    color: #f9f8db;
+    font-family: Arima Madurai;
+    font-size: 29px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.ps-deals-boxhead3 {
+    color: #fa80d8;
+    font-family: Satisfy;
+    font-size: 38px;
+    padding-top: 88px;
+    text-align: center;
+}
+/*End Get the best deals section 2*/
+
+/*Reservation type*/
+/*global class for reservation*/
+
+.ps-assistant-bold-font{
+    font-family: 'Assistant', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+
+.ps-reservation-header{
+    padding: 69px 0 94px 0;
+}
+
+.ps-reservation-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    padding-bottom: 39px;
+    line-height: 3;
+
+}
+.ps-reservation-subtitle{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 60px;
+    color: #572148;
+}
+
+.ps-reservation-subtitle5{
+    color: #7d406c;
+}
+
+.ps-reservation-type-2{
+
+    background-color: #ffcccc;
+    padding-bottom: 76px;
+}
+.ps-reservation-type-4{
+    background-color:#e4cabb;
+    padding-bottom: 76px;
+}
+
+.ps-reservation-form-2{
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+}
+
+
+.ps-reserve-color-2{
+    color: #8f3969;
+}
+
+.ps-reservation-type-2 input::-webkit-input-placeholder {
+    color: #996666 !important;
+
+}
+
+.ps-reservation-type-2 input::-moz-placeholder {
+    color: #996666 !important;
+
+}
+.ps-reservation-type-2 input:-ms-input-placeholder  {
+    color: #996666 !important;
+
+}
+.ps-reservation-type-2 input:-moz-placeholder {
+    color: #996666 !important;
+
+}
+
+.ps-reservation-type-2 textarea::-webkit-input-placeholder {
+    color: #996666 !important;
+
+}
+
+
+.ps-reservation-type-2 textarea::-moz-placeholder {
+    color: #996666 !important;
+
+}
+
+.ps-reservation-type-2 textarea:-ms-input-placeholder  {
+    color: #996666 !important;
+
+}
+
+.ps-reservation-type-2 textarea:-moz-placeholder {
+    color: #996666!important;
+
+}
+.ps-reservation-type-2 .btn{
+    background:#663366;
+    color: #fff;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.ps-reservation-type-2 .btn:hover{
+    background: #ff9999;
+}
+
+
+
+/* reservation type 2 end */
+
+/*Start image*/
+.ps-clients-tricker-content{
+    background-color: #f39d89;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.ps-number-client{
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-size: 60px;
+    font-family: "ArimaMadurai";
+    color: #f9ffe1;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.ps-type-name-client{
+    font-size: 20px;
+    font-family: "ArimaMadurai";
+    color: #f9ffe1;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+/*End image*/
+
+/**Classes**/
+
+.ps-spa-category{
+    
+    background-image: url("../img/consultation-bg.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 66px;
+    padding-bottom: 90px;
+    line-height: 1.5;
+}
+
+
+
+.ps-header-category{
+    color: #493638;
+}
+.ps-category-title{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+.ps-category-subtitle{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.ps-single-category{
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.ps-single-category:hover{
+    background-color: #ced9c8;
+    border-radius: 7px;
+    height: auto;
+}
+
+.ps-width-left{
+    width: 82%;
+    float: left;
+    color: #293d31;
+}
+.ps-category-name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ps-width-right {
+    width: 18%;
+    float: right;
+    color: #293d31;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.ps-price-zero{
+    top: -5px;
+    font-size: 12px;
+}
+
+
+/**Events & classes**/
+
+
+/*============ Sidebar-Category-Starts================*/
+.ps-sidebar-headings {
+    font-size: 20px;
+    font-family: "Assistant";
+    color: rgb(41, 61, 49);
+    font-weight: bold;
+}
+
+ul.ps-sidebar-list-style {
+    padding: 0;
+    list-style-type: none;
+    padding-bottom: 80px;
+}
+
+.ps-sidebar-links {
+    font-size: 18px;
+    font-family: "Assistant";
+    color: rgb(41, 61, 49);
+}
+
+.ps-sidebar-links:hover, .ps-sidebar-links:active, .ps-sidebar-links:focus {
+    text-decoration: none;
+}
+
+.ps-sidebar-borders-paddings {
+    border-bottom: 1px solid rgb(189, 203, 185);
+    padding-bottom: 20px;
+    padding-top: 22px;
+}
+
+.ps-sidebar-left-padding {
+    padding-left: 18px;
+}
+
+.ps-sidebar-first-bottom {
+    min-height: 84px;
+}
+
+.ps-sidebar-filter-bottom {
+    margin-bottom: 46px;
+}
+
+.ps-sidebar-price-bottom {
+    margin-bottom: 92px;
+}
+
+.ps-sidebar-scent-top {
+    padding-top: 54px;
+}
+
+.ps-sidebar-cat {
+    padding-top: 5px;
+}
+
+.slider-selection {
+    position: absolute;
+    background-image: -webkit-linear-gradient(top, #f9f9f9 0, #f5f5f5 100%);
+    background-image: -o-linear-gradient(top, #f9f9f9 0, #f5f5f5 100%);
+    background-image: linear-gradient(to bottom, #000000 0, #000000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9', endColorstr='#fff5f5f5', GradientType=0);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.slider-handle {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    background-image: -webkit-linear-gradient(top, #000000 0, #000000 100%);
+    background-image: -o-linear-gradient(top, #000000 0, #000000 100%);
+    background-image: linear-gradient(to bottom, #040404 0, #000000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+    filter: none;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    border: 0 solid transparent;
+}
+
+.slider.slider-horizontal {
+    width: 100%;
+}
+
+/*general styles for all CSS Checkboxes*/
+label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type=checkbox].css-checkbox {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-left: 20px;
+    height: 15px;
+    display: inline-block;
+    line-height: 15px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -15px;
+}
+
+.css-label {
+    background-image: url(../img/icons/vlad.png);
+}
+
+/*specific classes related to Checkbox skins*/
+.vlad {
+    background-image: url(../img/icons/vlad.png);
+}
+
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+    padding-left: 22px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg {
+
+    background-position: 0 -20px;
+}
+
+/*=============== sidebar-category-ends=====================*/
+
+/*===================== sidebar-product-shop page ===================== */
+
+.ps-shop {
+    padding-top: 45px;
+    background-color: #fbffed;
+}
+
+.ps-shop .ps-link-style-nullify {
+    color: #45574a;
+}
+
+.ps-shop-top {
+    margin-top: 50px;
+}
+
+.ps-shop-top-no-sidebar {
+    margin-top: 38px;
+}
+
+.ps-pagination-no-sidebar {
+    margin-top: 110px;
+    margin-bottom: 90px;
+}
+
+/*shop heading starts  */
+.ps-shop-heading h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #293d31;
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.ps-shop-heading-show {
+    margin-left: 20px;
+}
+
+.ps-shop-heading-show li {
+    float: left;
+    margin-right: 15px;
+}
+
+.ps-shop-heading-show h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #293d31;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.ps-shop-heading-show-1 li {
+    float: left;
+    margin-right: 15px;
+}
+
+.ps-shop-heading-show-1 h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #293d31;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.ps-shop-heading-view {
+    padding-left: 36px;
+}
+
+.ps-shop-heading-view h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #293d31;
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+#dropdownMenu1 {
+    width: 85px;
+    height: 28px;
+}
+
+#dropdownMenu2 {
+    width: 28px;
+    height: 28px;
+}
+
+#dropdownMenu3 {
+    width: 140px;
+    height: 30px;
+}
+
+/*.btn {
+    font-family: 'Assistant', sans-serif;
+    display: inline-block;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}*/
+
+.btn .caret {
+    margin-left: 25px;
+}
+
+.btn1 {
+    color: #333;
+    background-color: #ebf1d7;
+}
+
+.btn2 {
+    color: #333;
+    background-color: #bdcbb9;
+}
+
+.btn4 {
+    color: #fff;
+    background-color: #7d406c;
+}
+
+/* shop image starts*/
+
+.ps-shopping-margin-top {
+    margin-top: 52px;
+}
+
+/*shop product starts */
+.ps-product {
+    margin-top: 12px;
+}
+
+/*shop product-name starts*/
+.ps-product-name h5 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #45574a;
+    padding-bottom: 15px;
+}
+
+.ps-product-name a {
+    text-decoration: none;
+    color: #45574a;
+}
+
+.ps-product-name a:hover, .ps-product-name a:active, .ps-product-name a:focus {
+    text-decoration: none;
+    color: #b05797;
+}
+
+/*shop product-price starts*/
+.ps-product-price {
+    color: #374a3e;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ps-doller-top {
+    vertical-align: text-top;
+}
+
+.ps-product-price-center {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+/* shop cart starts*/
+
+.ps-shop-cart {
+    margin-top: 30px;
+}
+
+.ps-shop-cart li {
+    float: left;
+}
+
+.cart-left {
+    margin-left: 5px;
+}
+
+.cart-share {
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+.cart-heart {
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.ps-custom-link-style {
+    color: #000;
+    text-decoration: none;
+}
+
+.ps-custom-link-style:hover, .ps-custom-link-style:focus {
+    color: #b05797;
+    text-decoration: none;
+
+}
+
+.change-icon > .fa + .fa,
+.change-icon:hover > .fa, .change-icon:active > .fa {
+    display: none;
+}
+
+.change-icon:hover > .fa + .fa, .change-icon:active > .fa + .fa {
+    display: inherit;
+}
+
+span {
+    font-weight: bold;
+}
+
+del {
+    color: #758375;
+}
+
+/* shop pagination starts*/
+
+.ps-pagination {
+    display: inline-block;
+    padding-left: 0;
+    border-radius: 4px;
+    margin-top: 90px;
+    border: 1px solid #ebf1d7;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #293d31;
+    position: relative;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    border: 1px solid #ebf1d7;
+    background-color: #ebf1d7;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    color: #293d31;
+    cursor: default;
+    background-color: #bdcbb9;
+    height: 38px;
+    border: none;
+    font-weight: bold;
+}
+
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover {
+    color: #777;
+    border-color: #ebf1d7;
+    cursor: not-allowed;
+    background-color: #ebf1d7;
+}
+
+/*===================== sidebar-product-shop Ends ===================== */
+
+/*==================Single-Product-page-Starts=================*/
+
+.ps-single-item-first .list-inline .ps-product-price {
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.ps-single-product-title {
+    font-size: 60px;
+    font-family: "Myriad Pro";
+    color: rgb(41, 61, 49);
+    line-height: 1.2;
+    padding-left: 95px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+.ps-product-price {
+    font-size: 24px;
+    font-family: "Assistant";
+    color: rgb(41, 61, 49);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.ps-product-add {
+    font-family: "Assistant";
+    border-radius: 4px;
+    background-color: rgb(125, 64, 108);
+    font-size: 20px;
+    color: rgb(249, 255, 225);
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 5px 20px 10px 20px;
+}
+
+.ps-single-item-first .list-inline a:hover, .ps-single-item-first .list-inline a:active, .ps-single-item-first .list-inline a:focus {
+    background-color: #9E6D98;
+}
+
+.ps-product-quantity {
+    background-color: rgb(235, 241, 215);
+    font-size: 20px;
+    font-family: "Assistant";
+    color: rgb(41, 61, 49);
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 5px 20px 12px 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.ps-product-quantity a, .ps-product-quantity li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ps-product-quantity .list-inline a:hover, .ps-product-quantity .list-inline a:active, .ps-product-quantity .list-inlline a:focus {
+    background-color: #ebf1d7;
+    text-decoration: none;
+}
+
+.ps-product-quantity .ps-product-quantity-no {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ps-product-contentParagraph {
+    font-size: 20px;
+    font-family: "Assistant";
+    color: #6f7e70;
+    line-height: 1.5;
+    padding-top: 70px;
+}
+
+.ps-single-item-first .ps-product-add {
+    background-color: rgb(235, 241, 215);
+    color: rgb(41, 61, 49);
+}
+
+.ps-single-item-first {
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-color: #fbffed;
+}
+
+/*===================Single-Product-Page-Ends====================*/
+
+/*===========Single-product-page-Alt===============*/
+.ps-single-item-second .list-inline .ps-product-price {
+    margin-left: 95px;
+    margin-right: 80px;
+}
+
+.ps-single-product-title-alt {
+    font-weight: normal;
+    padding-left: 95px;
+}
+
+.ps-product-add-alt {
+    padding: 5px 20px 10px 20px;
+}
+
+.smallImageList li, .smallImageList .active {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: #fff;
+    margin-right: 10px;
+}
+
+.smallImageList .carousel-indicators li.active {
+    border: none;
+}
+
+.ps-product-indicator {
+
+    position: relative;
+    bottom: 10px;
+    padding-left: 0;
+    text-align: right;
+    list-style: none;
+    margin-top: 30px;
+    left: 25%;
+    width: 100%;
+}
+
+.ps-single-item-second {
+    padding-top: 136px;
+    padding-bottom: 70px;
+    background-color: #fbffed;
+}
+
+/*===========End single product item============*/
+
+/*==================Related Products Start============== */
+
+.ps-related-products a {
+    color: #293d31;
+}
+
+.ps-related-products-content {
+    background-image: url("../img/relatedItems.png");
+    padding-top: 70px;
+    padding-bottom: 58px;
+}
+
+.ps-related-text {
+    font-size: 30px;
+    font-family: "Assistant";
+    color: #293d31;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 60px;
+}
+
+.ps-type-name-related {
+    font-size: 20px;
+    font-family: "Assistant";
+    color: #293d31;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 46px;
+    padding-bottom: 0;
+}
+
+.ps-number-related {
+    font-size: 24px;
+    font-family: "Assistant";
+    color: #293d31;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/*================ Related Products End ================*/
+
+/* Custom CSS part for design */
+/* There is no link with Calendar plugin, if you want to add this plugin in another theme. */
+/* not need to use this Custom CSS part */
+.event-calendar{
+    background-color: #fcfef5;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 40px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    border-radius: 5px;
+}
+
+.cld-day.today .cld-number {
+    display: inline-block;
+    height: 52px;
+    width: 51px;
+    border-radius: 50px;
+    background: #293d31;
+    color: #ebf1d7;
+}
+
+.cld-label, .cld-day{
+    display: inline-block;
+    width: 14.28%;
+    text-align: center;
+    font-size: 19px;
+}
+
+.calendar-padding{
+    padding-top: 64px;
+    margin-bottom: 30px;
+}
+
+
+
+/*=======================footer starts==============================*/
+
+.ps-footer-bg {
+    background-color: #572d4b;
+}
+
+.ps-footer-row {
+    padding-top: 55px;
+    color: #dcdfc9;
+    font-family: 'Assistant', sans-serif;
+    padding-bottom: 60px;
+}
+
+.ps-footer-logo {
+    top: -13px;
+    padding-left: 35px;
+}
+
+.ps-footer-welcome {
+    padding-left: 52px;
+}
+
+.ps-footer-welcome-heading {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    width: 255px;
+}
+
+.ps-footer-welcome-content {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+
+.ps-footer-contact {
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+
+.ps-footer-social {
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.ps-footer-li-heading {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.ps-footer-social-icon {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.ps-footer-social-icon li a {
+    color: #dcdfc9;
+}
+
+.ps-footer-social-icon li a:hover, .ps-footer-social-icon li a:active, .ps-footer-social-icon li a:focus {
+    color: #b05797;
+
+}
+
+/*===============footer Ends================ */
+
+/* Back-to-top-functionality */
+
+.go-top {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: -40px;
+    right: 90px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    background-color: #b05797;
+    color: #e8add7;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 200;
+}
+
+.go-top.show {
+    bottom: 20px;
+}
+
+.go-top:hover {
+    background-color: #5DBA9D;
+    color: #FFFFFF;
+}
+
+/*--footer ends--*/
+
+/* Part for Responsive with  Media Queries */
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .ps-creative-title {
+        font-size: 23px;
+    }
+    .ps-slider-title {
+        font-size: 35px;
+    }
+    .ps-hr {
+        width: 70px;
+    }
+    /*for welcome part*/
+    .ps-global-heading{
+
+        font-size:30px;
+
+    }
+
+    .ps-global-text{
+
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    /*get the best deals -price */
+    .ps-deals-bound{
+
+        background-color:#ffffff;
+        padding-bottom: 35px;
+        margin: 0px 40px 30px 40px;
+
+    }
+    .ps-deals-boundhead{
+        font-size: 24px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .ps-deals-boundprice{
+        font-size: 48px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        text-align: center;
+        padding-top: 43px;
+    }
+    .ps-deals-pricetag {
+        font-size: 30px;
+    }
+    .ps-deals-pricetag2 {
+        bottom: -5px;
+    }
+    .ps-deals-boundbutton {
+        font-size: 30px;
+        font-family: 'Arima Madurai';
+        color: #f7dbcb;
+        background-color: #7d406c;
+        text-align: center;
+        border-radius: 8px;
+        padding: 13px 22px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+
+    }
+    div .ps-deals-body  .ps-deals-boundtext{
+        display: none;
+    }
+
+    /*----price ends---*/
+   /*----- Events and Classes -----*/
+    .cld-day.today .cld-number {
+
+        height: 24px;
+        width: 26px;
+    }
+    .cld-label, .cld-day{
+        font-size: 12px;
+    }
+    .cld-number{
+        padding: 0px;
+    }
+    .ps-events-bottom button{
+        padding: 4px 5px;
+        font-size: 14px;
+    }
+    /*----- Events and Classes ends-----*/
+    /*-----Our Servises Stert -----*/
+    .ps-yoga-title{
+        font-size: 25px;
+    }
+    .ps-yoga-description{
+        font-size: 15px;
+        padding-bottom: 60px;
+    }
+
+    /*-----Our Servises End -----*/
+    /*-----Reservation Start-----*/
+    .ps-contact-info {
+        padding-left: 10%;
+        padding-top: 20px;
+    }
+    .ps-reservation-title {
+        padding-bottom: 25px;
+    }
+
+    .ps-reservation-subtitle {
+        font-size: 35px;
+    }
+    /*-----Reservation End-----*/
+    /*----Blog start-----*/
+    .ps-radius{
+        padding-left: 17%;
+        margin-bottom: 20px;
+    }
+    .ps-absolute a{
+        right:25%;
+    }
+    /*----Blog end----*/
+    /*----Subscribe start----*/
+    .ps-form-padding{
+        padding-left: 10px;
+    }
+    .ps-button {
+        margin-left: 0px;
+    }
+    /*----Subscribe start----*/
+    /*----Header top part----*/
+    .header-top .text-center{
+        text-align: left;
+    }
+    .header-top div .pull-right{
+        float: left !important;
+    }
+    /*----Header top end-----*/
+    /*----Footer part----*/
+    .ps-footer-welcome-heading{
+        font-size: 21px;
+        width: 100%;
+    }
+    .ps-footer-margin{
+        margin-bottom: 25px;
+    }
+    .ps-footer-social{
+        text-align: center;
+    }
+    .ps-footer-contact {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    /*----Footer part end-----*/
+    /*----Start our services----*/
+    .ps-image-footerdesign2{
+        margin-left: 6px;
+        bottom: 6px;
+    }
+    .ps-service-img {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ps-services-title3 {
+        font-size: 45px;
+        padding-bottom: 65px;
+    }
+    /*----End our services----*/
+    /*----Start Price second part----*/
+    .ps-deals-main {
+        margin: 20px;
+    }
+    /*----End Price second part----*/
+    /*------Our packages start-----*/
+    .ps-para-header {
+        font-size: 30px;
+    }
+    .ps-para-writing {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .ps-content-row2{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .ps-package-padding{
+        margin-bottom: 30px;
+    }
+    /*------Our packages end-----*/
+    /*shop*/
+    .ps-product-name,.ps-product-price{
+        padding-right:0px;
+    }
+
+    .ps-shop-img{
+        padding-left:17px;
+    }
+    .ps-shop-cart{
+        padding-bottom:47px;
+        padding-left: 15px;
+    }
+
+    .ps-shop-heading-show{
+        display:none;
+    }
+    .ps-shop-heading,.ps-shop-heading-show,.ps-shop-heading-show1,.ps-shop-heading-view{
+        display:none;
+    }
+    /*shop ends here*/
+    /*shop product page (page13)starts from here*/
+    .ps-single-product-title{
+        font-size: 28px;
+        padding-left: 68px;
+    }
+
+    .ps-product-quantity{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .ps-name-related{
+        padding-top: 6px;
+        padding-bottom:10px;
+    }
+
+    .ps-number-related{
+        padding-bottom: 50px;
+    }
+    .ps-oil-image13{
+        padding-left: 147px;
+    }
+
+    .ps-product-contentParagraph{
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 15px;
+    }
+    /*single product page ends here*/
+    /*shop product page (page 14) starts here*/
+    .img14{
+        padding-left: 37px;
+        padding-right: 37px;
+        padding-top: 40px;
+    }
+    .smallImageList{
+        padding-right: 35px;
+        padding-top: 15px;
+    }
+    /*shop product page (page 14) ends here*/
+}
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .ps-creative-title {
+
+        font-size: 28px;
+
+    }
+    .ps-slider-title {
+        font-size: 45px;
+
+    }
+    .ps-hr {
+
+        width: 70px;
+
+    }
+    /*for welcome part*/
+    .ps-global-heading{
+        font-size:38px;
+        padding-left: 40px;
+
+    }
+
+    .ps-global-text{
+        font-size: 20px;
+        padding: 0px 40px 40px 30px;
+    }
+
+    .ps-welcome-card{
+       margin-left: 30px;
+        margin-right: 60px;
+    }
+    .ps-welcome-day{
+        padding-left: 30px;
+    }
+    .ps-welcome-time{
+        padding-right: 30px;
+    }
+
+   /*get the best deals -price */
+    .ps-deals-bound{
+
+        background-color:#ffffff;
+        padding-bottom: 35px;
+        margin: 0px 40px 30px 40px;
+
+    }
+    .ps-deals-boundhead{
+        font-size: 24px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .ps-deals-boundprice{
+        font-size: 48px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        text-align: center;
+        padding-top: 43px;
+    }
+    .ps-deals-pricetag {
+        font-size: 30px;
+    }
+    .ps-deals-pricetag2 {
+        bottom: -5px;
+    }
+    .ps-deals-boundbutton {
+        font-size: 30px;
+        font-family: 'Arima Madurai';
+        color: #f7dbcb;
+        background-color: #7d406c;
+        text-align: center;
+        border-radius: 8px;
+        padding: 13px 22px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+
+    }
+    div .ps-deals-body  .ps-deals-boundtext{
+        display: none;
+    }
+
+    /*----price ends---*/
+    /*----Evenys and Classes---*/
+    .cld-day.today .cld-number {
+
+        height: 47px;
+        width: 46px;
+    }
+    .cld-label, .cld-day{
+        font-size: 19px;
+    }
+    .cld-number{
+        padding: 5px;
+    }
+    .ps-events-bottom button{
+        padding: 13px 23px;
+        font-size: 16px;
+    }
+    /*----- Events and Classes ends-----*/
+    /*-----Reservation Start-----*/
+    .ps-contact-info {
+        padding-left: 10%;
+        padding-top: 20px;
+    }
+    .ps-reservation-title {
+        padding-bottom: 25px;
+    }
+
+    .ps-reservation-subtitle {
+        font-size: 35px;
+    }
+    /*-----Reservation End-----*/
+    .ps-bg-color {
+        padding: 15px 35px 55px 15px;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+    .ps-radius{
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .ps-absolute a{
+        right:39%;
+    }
+    /*----Blog end----*/
+    /*----Subscribe start----*/
+    .ps-form-padding{
+        padding-left: 10px;
+    }
+    .ps-button {
+        margin-left: 0px;
+    }
+    /*----Subscribe start----*/
+    /*----Header top part----*/
+    .header-top .text-center{
+        text-align: left;
+    }
+    .header-top div .pull-right{
+        float: left !important;
+    }
+    /*----Header top end-----*/
+    /*----Footer part----*/
+    .ps-footer-welcome-heading{
+        font-size: 21px;
+    }
+    .ps-footer-margin{
+        margin-bottom: 25px;
+    }
+    .ps-footer-social{
+        text-align: center;
+    }
+    .ps-footer-contact {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    /*----Footer part end-----*/
+    /*----Start our services----*/
+    .ps-image-footerdesign2{
+        margin-left: 7px;
+        bottom: 7px;
+    }
+    .ps-service-img {
+        margin-left: 23%;
+        margin-right: 24%;
+    }
+    .ps-services-title3 {
+        font-size: 60px;
+        padding-bottom: 78px;
+    }
+    /*----End our services----*/
+    /*----Start Price second part----*/
+    .ps-deals-main {
+        margin: 20px;
+    }
+    /*----End Price second part----*/
+    /*------Our packages start-----*/
+    .ps-para-header {
+        font-size: 40px;
+    }
+    .ps-para-writing {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .ps-content-row2{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .ps-package-padding{
+        margin-bottom: 30px;
+    }
+    /*------Our packages end-----*/
+    /*shop*/
+    .ps-product-name,.ps-product-price{
+        padding-right:48px;
+    }
+    .ps-shop-cart{
+        padding-bottom:47px;
+        padding-left: 82px;
+    }
+    .ps-shop-img{
+        padding-left:55px;
+    }
+    .ps-shop-heading,.ps-shop-heading-show,.ps-shop-heading-show1,.ps-shop-heading-view{
+        display:none;
+    }
+    /*shop ends here*/
+    /*shop product page (page13)starts from here*/
+    .ps-single-product-title{
+        font-size: 45px;
+        padding-left:88px;
+    }
+    .ps-product-quantity{
+        margin-top: 10px;
+        margin-left: 84px;
+    }
+    .ps-name-related{
+        padding-top: 6px;
+        padding-bottom:10px;
+    }
+
+    .ps-number-related{
+        padding-bottom: 50px;
+    }
+    /*shop product page ends here*/
+    /*shop product page (page 14) starts here*/
+    .img14{
+        padding-left: 39px;
+        padding-right: 39px;
+        padding-top: 15px;
+    }
+    .smallImageList {
+        padding-right: 12px;
+        padding-top: 15px;
+    }
+    /*shop product page (page 14) ends here*/
+
+}
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .ps-creative-title {
+
+        font-size: 30px;
+
+    }
+    .ps-slider-title {
+        font-size: 65px;
+
+    }
+    .ps-hr {
+
+        width: 80px;
+
+    }
+    /*for welcome part*/
+    .ps-global-heading{
+
+        font-size:38px;
+
+
+    }
+
+    .ps-global-text{
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .ps-welcome-card{
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /*get the best deals - price*/
+    .ps-deals-bound{
+
+        background-color:#ffffff;
+        padding-bottom: 35px;
+        margin: 0px;
+    }
+    .ps-deals-upper{
+        width: 100%;
+        height: 20px;
+    }
+
+    div.ps-deals-body:hover .ps-deals-upper{
+        border-radius: 5px 5px 0px 0px;
+        background:#ffffff ;
+
+        transform: scaleY(1.15);
+        -webkit-transition-duration: .75s; /* Safari */
+        transition-duration: .75s;
+
+    }
+    .ps-deals-bottom{
+        width: 100%;
+        height: 20px;
+    }
+
+    div.ps-deals-body:hover .ps-deals-bottom{
+        border-radius: 0px 0px 5px 5px;
+        background:#ffffff ;
+
+        transform: scaleY(1.15);
+        -webkit-transition-duration: .75s; /* Safari */
+        transition-duration: .75s;
+
+    }
+
+
+    .ps-deals-boundhead{
+        font-size: 24px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .ps-deals-boundtext {
+        font-size: 20px;
+        font-family: 'Assistant';
+        color: #7d406c;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+    div .ps-deals-body  .ps-deals-boundtext{
+        display: block;
+    }
+    div .ps-deals-body:hover  .ps-deals-boundtext{
+        display: none;
+    }
+
+    div .ps-deals-body:hover .ps-deals-boundbutton{
+        display: block;
+    }
+
+    .ps-deals-boundprice{
+        font-size: 48px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        text-align: center;
+        padding-top: 43px;
+    }
+    .ps-deals-pricetag {
+        font-size: 30px;
+    }
+    .ps-deals-pricetag2 {
+        bottom: -5px;
+    }
+    .ps-deals-boundbutton {
+        font-size: 30px;
+        font-family: 'Arima Madurai';
+        color: #f7dbcb;
+        background-color: #7d406c;
+        text-align: center;
+        border-radius: 8px;
+        padding: 13px 22px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        display: none;
+    }
+    /*----price ends---*/
+    /*---vents and Classes ---*/
+    .cld-day.today .cld-number {
+
+        height: 47px;
+        width: 46px;
+    }
+    .cld-label, .cld-day{
+        font-size: 19px;
+    }
+    .cld-number{
+        padding: 5px;
+    }
+
+    .ps-events-bottom button{
+        padding: 13px 23px;
+        font-size: 20px;
+    }
+    /*----- Events and Classes ends-----*/
+    /*-----Our Servises Stert -----*/
+    .ps-yoga-title{
+        font-size: 30px;
+    }
+    .ps-yoga-description{
+        font-size: 20px;
+        padding-bottom: 92px;
+    }
+
+    /*-----Our Servises End -----*/
+    /*-----Reservation Start-----*/
+    .ps-contact-info {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .ps-reservation-title {
+        padding-bottom: 39px;
+    }
+
+    .ps-reservation-subtitle {
+        font-size: 60px;
+    }
+    /*-----Reservation End-----*/
+    /*----Blog start----*/
+    .ps-bg-color {
+        padding: 15px 35px 55px 15px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ps-radius{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    .ps-absolute a{
+        right:32%;
+    }
+    /*----Blog end----*/
+    /*----Subscribe start----*/
+    .ps-form-padding{
+        padding-left: 0px;
+    }
+    .ps-button {
+        margin-left: -5px;
+    }
+    /*----Subscribe start----*/
+    /*----Header part----*/
+    .main-nav-wrapper ul li {
+         padding: 0px;
+    }
+    .navbar .container>.navbar-header {
+         margin-right: -10px;
+        margin-left: -10px;
+
+    }
+    /*----Header part end----*/
+    /*----Footer part----*/
+    .ps-footer-welcome-heading{
+        font-size: 30px;
+    }
+    .ps-footer-margin{
+        margin-bottom: 25px;
+    }
+    .ps-footer-social{
+        text-align: left;
+    }
+    .ps-footer-contact {
+        text-align: left;
+        margin-bottom: 0px;
+
+    }
+    /*----Footer part end-----*/
+    /*----Start our services----*/
+    .ps-image-footerdesign2{
+        margin-left: 5px;
+        bottom: 5px;
+    }
+    .ps-service-img {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /*----End our services----*/
+    /*----Start Price second part----*/
+    .ps-deals-boxhead {
+        font-size: 30px;
+        padding-top: 75px;
+    }
+    .ps-deals-boxhead3 {
+        font-size: 30px;
+        padding-top: 75px;
+    }
+
+    .ps-deals-main {
+        margin: 0px;
+    }
+
+    /*----End Price second part-----*/
+    /*------Our packages start-----*/
+    .ps-para-header {
+        font-size: 50px;
+    }
+    .ps-content-row2{
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+    .ps-package-padding{
+        margin-bottom: 0px;
+    }
+    /*------Our packages end-----*/
+    .ps-product-name,.ps-product-price{
+        padding-right: 0px;
+    }
+    .ps-shop-img{
+        padding-left:5px;
+    }
+    .ps-shop-cart{
+        padding-bottom:47px;
+        padding-left: 15px;
+    }
+    .ps-custom-link-style{
+        padding-left:26px;
+    }
+    .ps-shop-heading,.ps-shop-heading-show,.ps-shop-heading-show1,.ps-shop-heading-view{
+        display:block;
+    }
+        /*shop ends here*/
+        /*shop product page (page13)starts from here*/
+    .ps-product-quantity{
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+
+    .ps-single-product-title{
+        font-size: 45px;
+        padding-left: 190px;
+    }
+    .ps-oil-image13{
+        padding-left: 147px;
+    }
+    .ps-product-contentParagraph{
+        padding-left:75px;
+        padding-right:75px;
+        font-size:19px;
+    }
+        /*shop product page ends here*/
+        /*shop product page (page 14) starts here*/
+    .img14{
+        padding-left: 131px;
+        padding-top: 40px;
+    }
+    .smallImageList {
+        padding-right: 141px;
+        padding-top: 15px;
+    }
+        /*shop product page (page 14) ends here*/
+}
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .ps-welcome-card{
+
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    /* Get the best deals-Price */
+
+    .ps-deals-bound{
+
+        background-color:#ffffff;
+        padding-bottom: 35px;
+    }
+    .ps-deals-upper{
+        width: 100%;
+        height: 20px;
+    }
+
+    div.ps-deals-body:hover .ps-deals-upper{
+        border-radius: 5px 5px 0px 0px;
+        background:#ffffff ;
+
+        transform: scaleY(1.15);
+        -webkit-transition-duration: .75s; /* Safari */
+        transition-duration: .75s;
+
+    }
+    .ps-deals-bottom{
+        width: 100%;
+        height: 20px;
+    }
+
+    div.ps-deals-body:hover .ps-deals-bottom{
+        border-radius: 0px 0px 5px 5px;
+        background:#ffffff ;
+
+        transform: scaleY(1.15);
+        -webkit-transition-duration: .75s; /* Safari */
+        transition-duration: .75s;
+
+    }
+
+    div .ps-deals-body:hover .ps-deals-boundprice{
+        padding-top: 40px;
+    }
+
+
+    .ps-deals-boundhead{
+        font-size: 30px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 70px;
+    }
+    .ps-deals-boundtext {
+        font-size: 24px;
+        font-family: 'Assistant';
+        color: #7d406c;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 35px;
+    }
+    div .ps-deals-body:hover  .ps-deals-boundtext{
+        display: none;
+    }
+
+    div .ps-deals-body:hover .ps-deals-boundbutton{
+        display: block;
+    }
+
+    .ps-deals-boundprice{
+        font-size: 48px;
+        font-family: 'Arima Madurai';
+        color: #7d406c;
+        text-align: center;
+        padding-top: 43px;
+    }
+    .ps-deals-pricetag {
+        font-size: 30px;
+    }
+    .ps-deals-pricetag2 {
+        bottom: -5px;
+    }
+    .ps-deals-boundbutton {
+        font-size: 30px;
+        font-family: 'Arima Madurai';
+        color: #f7dbcb;
+        background-color: #7d406c;
+        text-align: center;
+        border-radius: 8px;
+        padding: 14px 40px;
+        margin-top: 70px;
+        margin-bottom: 42px;
+        display: none;
+    }
+    /*----price ends---*/
+    /*----Blog start----*/
+    .ps-bg-color {
+        padding: 15px 35px 28px 15px;
+        margin-bottom: 0px;
+    }
+    .ps-absolute a{
+        right:8%;
+    }
+    /*----Blog end----*/
+    /*----Subscribe start----*/
+    .ps-form-padding{
+        padding-left: 0px;
+    }
+    .ps-button {
+        margin-left: -5px;
+    }
+    /*----Subscribe start----*/
+    /*----Header part----*/
+    .main-nav-wrapper ul li {
+        padding: 10px 10px 1px 20px;
+    }
+    /*----Header part end----*/
+    /*----Footer part----*/
+    .ps-footer-margin{
+        margin-bottom: 0px;
+    }
+    /*----Footer part end-----*/
+    /*----Start our services----*/
+    .ps-image-footerdesign2{
+        margin-left: 7px;
+        bottom: 7px;
+    }
+    /*----End our services----*/
+    /*----Start Price second part----*/
+    .ps-deals-boxhead {
+        font-size: 38px;
+        padding-top: 88px;
+    }
+    .ps-deals-boxhead3 {
+        font-size: 38px;
+        padding-top: 88px;
+    }
+    /*----End Price second part-----*/
+    .ps-shop-img{
+        padding-left:5px;
+    }
+    .ps-custom-link-style{
+        padding-left:0px;
+    }
+    .ps-shop-heading,.ps-shop-heading-show,.ps-shop-heading-show1.ps-shop-heading-view{
+        display:block;
+    }
+    .smallImageList {
+        padding-right: 20px;
+    }
+    .img14{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    /*shop ends here*/
+    /*shop product page starts from here*/
+    /*shop product page ends here*/
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
