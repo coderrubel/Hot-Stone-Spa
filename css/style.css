@@ -3743,13 +3743,12 @@ del {
     }
 
     div.ps-deals-body:hover .ps-deals-upper{
-        border-radius: 5px 5px 0px 0px;
+       border-radius: 5px 5px 0px 0px;
         background:#ffffff ;
 
         transform: scaleY(1.15);
         -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: .75s;
-
+        transition-duration: 2s; 
     }
     .ps-deals-bottom{
         width: 100%;
@@ -3760,10 +3759,9 @@ del {
         border-radius: 0px 0px 5px 5px;
         background:#ffffff ;
 
-        transform: scaleY(1.15);
+        transform: scaleY(1.00);
         -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: .75s;
-
+        transition-duration: 2s;
     }
 
 
@@ -4021,10 +4019,13 @@ del {
         height: 20px;
     }
 
+    div.ps-deals-body:hover{
+          box-shadow: 10px 10px 10px gray;
+    }
     div.ps-deals-body:hover .ps-deals-upper{
         border-radius: 5px 5px 0px 0px;
         background:#ffffff ;
-
+  
         transform: scaleY(1.15);
         -webkit-transition-duration: .75s; /* Safari */
         transition-duration: .75s;
