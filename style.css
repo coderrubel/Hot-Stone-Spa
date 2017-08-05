@@ -81,3 +81,13 @@ and open the template in the editor.
     pointer-events: none;
     position: absolute;
 }
+
+
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
