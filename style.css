@@ -91,3 +91,20 @@ and open the template in the editor.
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
+
+.dropdown-menu > li {
+  border-bottom: 1px solid gray;
+}
+.dropdown-menu > li:last-child {
+  border-bottom: none;
+  
+}
+.dropdown-menu > li a{
+    padding-bottom: 14px;
+}
+
+.dropdown-menu > li a:hover{
+    color: #f39d89;
+   
+}
+
