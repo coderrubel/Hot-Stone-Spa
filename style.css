@@ -19,3 +19,65 @@ and open the template in the editor.
     color: #f39d89;
     cursor: pointer;
 }
+
+
+.ps-reservation-form input[type="text"], input[type="email"], input[type="date"] {
+    background: white;
+    border: 1px solid #e5e5d8;
+    
+    padding: 16px;
+    display: block;
+    font-size: 14px;
+    margin: 0px 0 15px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    border: 1px solid #e5e5d8;
+    width: 100%;
+    margin: 0px 0px 15px;
+    padding: 15px 10px 14px 15px;
+    -webkit-appearance: none;
+}
+.ps-reservation-form select{
+    height: 50px;
+}
+.ps-reservation-form select option{
+    font-size: 14px;
+}
+.selection-box {
+    position: relative;
+    clear: both;
+}
+
+.selection-box:before {
+    z-index: 1;
+    right: 17px;
+    top: 5px;
+    bottom: 0px;
+    height: 0px;
+    margin: auto;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, 0.2);
+    content: "";
+    pointer-events: none;
+    position: absolute;
+}
+
+.selection-box:after {
+    width: 48px;
+    height: 48px;
+    right: 0px;
+    top: 1px;
+    border-left: 1px solid #e5e5d8;
+    border-right: 1px solid #e5e5d8;
+    background: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+}
