@@ -47,3 +47,4 @@ caleandar(element, events, settings);
 
 //slider
 $("#ex2").slider({});
+
