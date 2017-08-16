@@ -7,13 +7,17 @@ and open the template in the editor.
     Created on : Aug 3, 2017, 4:34:39 PM
     Author     : IECS
 */
-
+.header-top{
+    padding-top: 10px;
+}
 .header-top span, .header-top a {
-    color: #d5cec2;
+   color: #d5cec2;
+  
 }
 
 .header-top   a:hover{
     color: #f39d89;
+    
 }
 .header-top span:hover{
     color: #f39d89;

@@ -147,7 +147,7 @@ table {
     position: relative;
 }
 .main-nav-wrapper ul li {
-    padding: 10px 10px 1px 20px;
+    padding: 10px 35px 1px 20px;
     font-family: 'Heebo', sans-serif;
 }
 
@@ -3746,9 +3746,9 @@ del {
        border-radius: 5px 5px 0px 0px;
         background:#ffffff ;
 
-        transform: scaleY(1.15);
-        -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: 2s; 
+        //transform: scaleY(0.25);
+        -webkit-transition-duration: .95s; /* Safari */
+        transition-duration: 10s; 
     }
     .ps-deals-bottom{
         width: 100%;
@@ -3759,9 +3759,9 @@ del {
         border-radius: 0px 0px 5px 5px;
         background:#ffffff ;
 
-        transform: scaleY(1.00);
+        //transform: scaleY(1.00);
         -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: 2s;
+        transition-duration: 10s;
     }
 
 
@@ -4020,7 +4020,7 @@ del {
     }
 
     div.ps-deals-body:hover{
-          box-shadow: 10px 10px 10px gray;
+      /*    box-shadow: 10px 10px 10px gray;*/
     }
     div.ps-deals-body:hover .ps-deals-upper{
         border-radius: 5px 5px 0px 0px;
@@ -4028,7 +4028,7 @@ del {
   
         transform: scaleY(1.15);
         -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: .75s;
+        transition-duration: 1s;
 
     }
     .ps-deals-bottom{
@@ -4042,7 +4042,7 @@ del {
 
         transform: scaleY(1.15);
         -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: .75s;
+        transition-duration: 1s;
 
     }
 
