@@ -11,13 +11,13 @@ and open the template in the editor.
     padding-top: 10px;
 }
 .header-top span, .header-top a {
-   color: #d5cec2;
-  
+    color: #d5cec2;
+
 }
 
 .header-top   a:hover{
     color: #f39d89;
-    
+
 }
 .header-top span:hover{
     color: #f39d89;
@@ -28,7 +28,7 @@ and open the template in the editor.
 .ps-reservation-form input[type="text"], input[type="email"], input[type="date"] {
     background: white;
     border: 1px solid #e5e5d8;
-    
+
     padding: 16px;
     display: block;
     font-size: 14px;
@@ -90,18 +90,18 @@ and open the template in the editor.
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
 .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
 .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
-    
+
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
 
 .dropdown-menu > li {
-  border-bottom: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .dropdown-menu > li:last-child {
-  border-bottom: none;
-  
+    border-bottom: none;
+
 }
 .dropdown-menu > li a{
     padding-bottom: 14px;
@@ -109,8 +109,29 @@ li.dropdown:hover > .dropdown-menu {
 
 .dropdown-menu > li a:hover{
     color: #f39d89;
-   
+
 }
 
 
+@media only screen and (min-width: 200px)and (max-width: 800px) {
+.ps-member-wrap{
+    padding-top: 84px; 
+}
+.ps-member-border{
+ border: none;   
+  text-align: center;
+}
 
+.ps-team-member-portfolio{
+   
+    text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 800px)and (max-width: 1200px) {
+.ps-member-wrap{
+    padding-top: 84px;
+   
+}
+}
