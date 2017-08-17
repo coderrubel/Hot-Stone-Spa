@@ -1474,11 +1474,13 @@ table {
 }
 
 
-#ps-exampleInputEmail3{
-    width:235px;
-    height:40px;
-    font-family: 'Assistant', bold;
+#ps-exampleInputEmail3 {
+	width: 235px;
+	height: 40px;
+	font-family: 'Assistant', bold;
+	padding-top: 10px;
 }
+
 
 .ps-button{
     background-color:#7d406c;
@@ -1488,7 +1490,8 @@ table {
     font-weight:bold;
     width:160px;
     height:40px;
-    font-family: 'Assistant', bold;
+    font-family: 'Assistant', bold;   
+    margin-top: -14px;
 }
 
 .ps-button:hover{
@@ -3744,11 +3747,11 @@ del {
 
     div.ps-deals-body:hover .ps-deals-upper{
        border-radius: 5px 5px 0px 0px;
-        background:#ffffff ;
+        background:#ffffff;
 
         //transform: scaleY(0.25);
         -webkit-transition-duration: .95s; /* Safari */
-        transition-duration: 10s; 
+        transition-duration: 20s; 
     }
     .ps-deals-bottom{
         width: 100%;
@@ -3761,7 +3764,7 @@ del {
 
         //transform: scaleY(1.00);
         -webkit-transition-duration: .75s; /* Safari */
-        transition-duration: 10s;
+        transition-duration: 20s;
     }
 
 
